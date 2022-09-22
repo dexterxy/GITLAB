@@ -2,7 +2,7 @@
 #include <string.h>
 void main()
  	//chagne Name[128], G[32], answer[32] -> Name[123], G[456]
-{ char char Name[123], G[456], answer[32];
+{ char char Name[128], G[32], answer[32];
   int i;
   do
   {
