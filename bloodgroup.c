@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-    //chagne Name[128], G[32], answer[32] -> Name[123], G[456]
-{ char char Name[420], G[32], answer[32];
+{ char char Name[1234], G[32], answer[32];
   int i;
   do
   {
-    printf("What is your yeet? ");
+    printf("What is your Surname? ");
     scanf("%s", Name);
     do
     {
