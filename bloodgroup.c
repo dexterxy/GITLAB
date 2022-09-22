@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 void main()
- 	//chagne Name[50], G[5], answer[10] -> char Name[128], G[32], answer[32]
-{ char char Name[128], G[32], answer[32];
+ 	//chagne Name[50], G[5], answer[10] -> char Name[128], G[32], answer[32] -> g[101], answer[96]
+{ char char Name[128], G[101], answer[96];
   int i;
   do
   {
